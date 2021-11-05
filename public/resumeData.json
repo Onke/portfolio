@@ -1,0 +1,128 @@
+{
+  "main": {
+    "name":"Onke Sipuka",
+    "current_occupation":"final year student",
+    "next_occupation": "Junior Software Engineer",
+    "goal": "learning new technology stacks",
+    "quote": "Given enough coffee, I could rule the world",
+    "image":"profilepic.jpg",
+    "bio":"I am passionate about learning new technologies, and I am consistently trying to up-skill myself. Born in a small town in the Eastern Cape, I only learnt about programming at university. I immediately fell in love with the idea of writing instructions to a computer and seeing them executed from then onwards. I knew that this is what I want to do as a career. The first-ever programming language I learnt was Python, and it is still dear to my heart, though now I am most competent with Java. I am full of new ideas and tend to have too many ongoing projects at a time. Outside of school working, I enjoy listening to podcasts, going to the gym, reading about businesses, playing games (both board games and computer games), and baking.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "sipukao@gmail.com",
+    "phone": "074-951-8824",
+    "address":{
+      "street":"1 Gommery Avenue",
+      "city":"Port Elizabeth",
+      "state":"Summerstrand",
+      "zip": "6001"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/onke-sipuka-01755a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Onke",
+        "className":"fa fa-github"
+      }
+      
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Nelson Mandela University",
+        "degree":"Bachelaor of Science in Comptuer Scince",
+        "graduated":"December 2021",
+        "description":"I am currently doing my BSc degree in Computer Science with Statistics as my second major. The knowledge I’ve gained so far has been immensely influential in solving a technical problem. Modules such as Data structure and Algorithm have helped me understand the underlying theory, concepts and science behind programming. Advanced Programming is where I leant about design patterns and android development. Overall I am confident that NMU has adequately prepared me for a career in Software Engineering."
+      }
+    ],
+    "work":[
+      {
+        "company":"Freelance",
+        "title":"Computer Science Tutor",
+        "years":"February 2019 - Present",
+        "description":"I am currently a private tutor at Nelson Mandela University. I tutor first year and second year students in Intro to Programming and Data Structures."
+    
+      },
+      {
+        "company":"Nelson Mandela University",
+        "title":"Computer Science Department Intern",
+        "years":"March 2021 - Present",
+        "description":"My job is to assist new and old students with any technical difficulties they may face. I'm also responsible for the computer labs, helping students in our department with their academic work and ensuring that Covid-19 regulations are followed in the labs at all times."
+      } 
+      
+      
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "image": "java.png",
+        "description":  "Java is the third language I learned after Python and C#. It is the language I am most competent with and enjoy using. Because Java is statically typed, it is easier to catch bugs and is easier to maintain."
+      },
+      {
+        "name":"Android Development",
+        "image": "android.jpg",
+        "description":  "I enjoy Android Development quite a lot. The fact that I can write Apps for myself is fantastic. Android is also the most abundant mobile OS, which means I can write apps for my enjoyment and also that many people can potentially use. I write Android Apps in Java which, again, I am competent with and enjoy using."
+      },
+      {
+        "name":"ReactJs",
+        "image": "react.png",
+        "description":  "I am new to ReactJS and found it challenging to wrap my head around it at first. As I continue to learn it, it’s growing on me. At this moment, I understand React to the degree that I can build a small uncomplicated website or modify an already existing website. I will continue to use React as I have many website ideas that I believe React would be the best choice to build them."
+      },
+      {
+        "name":"CSS",
+        "image": "css.png",
+        "description":  "I first learned CSS alongside HTML and Javascript when I took an elective Web Systems module. For styling, CSS stood out to me as it parses and renders faster than JQuery. I use CSS in all web projects I do. I am keen to learn more about CSS as I have seen some cool CSS projects that I hope will one day be able to build one day."
+      },
+      {
+        "name":"git",
+        "image": "git.png",
+        "description":  "I am relatively new to Git and GitHub. I started using it for my project at the beginning of this year. I took a short YouTube course, and it has been incredible and immensely helpful in organising my project as opposed to my previous system of using local folders. I will continue to use Git for version control."
+      },
+      {
+        "name":"SQL",
+        "image": "mysql.png",
+        "description":  "I am currently learning MySQL to use for my Third Year Project. I have used Microsoft Access as a DBMS but found it very restrictive as it only works on windows. I also like coding on Linux. I am open to new database options."
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Sagrada Android Game",
+        "category":"Android App",
+        "description": "This is a mobile version of the board game Sagrada. Sagrada is a dice placement game where players assemble dice, represent the glass's colour and shade, and place them in their window - carefully following restrictions while adding their artistic flair. This mobile game is a Client-Server version of Sagrada with a console-based server created in Java.",
+        "image":"sagrada_home.JPG",
+        "url":"https://github.com/Onke/sagrada-game"
+      },
+      {
+        "title":"SOS Android Game",
+        "category":"Android App",
+        "description": "This project an Android version of the famous paper and pencil game SOS, where two players compete to complete the SOS combination. The game is similar to Tic Tac Toe. This game is my first android application.",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://github.com/Onke/SOS"
+      },
+      {
+        "title":"E-Commerce Store",
+        "category":"ReactJS Website",
+        "description": "I built this project while learning ReactJS. E-Commerce Store is an e-commerce store (a pretty creative name) where customers can add products they wish to purchase to a cart and proceed to payment. The backend of the project uses the E-CommerceJS API to manage products, cart items and shipping details. It also uses the Stripe API to handle card payments.",
+        "image":"online_store.JPG",
+        "url":"https://github.com/Onke/online-store"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"It gets easier. Every day it gets a little easier. But you've got to do it every day —that's the hard part. But it does get easier.",
+        "user":"Jogging Baboon"
+      }
+    ]
+  }
+}
