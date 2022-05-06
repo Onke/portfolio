@@ -7,7 +7,7 @@
     "quote": "I drink coffee then slap my keyboard unitl everything works",
     "image":"profilepic.jpg",
     "bio":"I am passionate about learning new technologies, and I am consistently trying to up-skill myself. Born in a small town in the Eastern Cape, I only learnt about programming at university. I immediately fell in love with the idea of writing instructions to a computer and seeing them executed from then onwards. I knew that this is what I want to do as a career. The first-ever programming language I learnt was Python, and it is still dear to my heart, though now I am most competent with Java. I am full of new ideas and tend to have too many ongoing projects at a time. Outside of school working, I enjoy listening to podcasts, going to the gym, reading about businesses, playing games (both board games and computer games), and baking.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"",
     "email": "sipukao@gmail.com",
     "phone": "(+27) 74 951 8824",
     "address":{
@@ -33,7 +33,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
         "school":"Nelson Mandela University",
