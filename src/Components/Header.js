@@ -64,11 +64,11 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}</h1>
             <h3>
-              I'm a <span>{current_occupation}</span> based in {city}. I am
-              currently employed by <span>{employer}</span> where I{" "}
-              <span>{goal}</span>.
+              <span>{current_occupation}</span> specializing in web and mobile
+              application development at <span>{employer}</span> in{" "}
+              <span>{city}</span>.
               <br />
-              <span>"{quote}"</span>
+              {/* <span>"{quote}"</span> */}
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

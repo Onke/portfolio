@@ -1,12 +1,12 @@
 {
   "main": {
     "name":"Onke Sipuka",
-    "current_occupation":"Junior Full Stack Developer",
+    "current_occupation":"Full Stack Developer",
     "employer": "Pineapple",
-    "goal": "build web and mobile applications",
-    "quote": "I drink coffee then slap my keyboard unitl everything works",
+    "goal": "",
+    "quote": "",
     "image":"profilepic.jpg",
-    "bio":"I am passionate about learning new technologies, and I am consistently trying to up-skill myself. Born in a small town in the Eastern Cape, I only learnt about programming at university. I immediately fell in love with the idea of writing instructions to a computer and seeing them executed from then onwards. I knew that this is what I want to do as a career. The first-ever programming language I learnt was Python, and it is still dear to my heart, though now I am most competent with Java. I am full of new ideas and tend to have too many ongoing projects at a time. Outside of school working, I enjoy listening to podcasts, going to the gym, reading about businesses, playing games (both board games and computer games), and baking.",
+    "bio": "As a self-motivated learner with a passion for technology, I am constantly seeking opportunities to expand my skills and knowledge. I discovered my love for programming at university and have been dedicated to building a career in this field ever since. My background is in Python and Java, and I am always eager to learn more. I am a proactive and creative problem-solver with a strong work ethic and a track record of successfully managing multiple projects at a time. In my free time, I enjoy staying active with activities such as going to the gym and listening to podcasts. I am also an avid reader and enjoy learning about businesses, playing games, and trying out new recipes in the kitchen.",
     "contactmessage":"",
     "email": "sipukao@gmail.com",
     "phone": "(+27) 74 951 8824",
@@ -39,7 +39,7 @@
         "school":"Nelson Mandela University",
         "degree":"Bachelaor of Science in Comptuer Scince",
         "graduated":"December 2021",
-        "description":"I am currently doing my BSc degree in Computer Science with Statistics as my second major. The knowledge I’ve gained so far has been immensely influential in solving a technical problem. Modules such as Data structure and Algorithm have helped me understand the underlying theory, concepts and science behind programming. Advanced Programming is where I leant about design patterns and android development. Overall I am confident that NMU has adequately prepared me for a career in Software Engineering."
+        "description":"I completed my BSc degree in Computer Science, with Statistics as my second major. My studies provided me with a strong foundation in technical problem-solving, as well as a deep understanding of key concepts and theories in programming. Through coursework such as Data Structures and Algorithms, Advanced Programming, and Android Development, I gained the skills and knowledge necessary to succeed in a career in Software Engineering. I was grateful for the opportunity to study at NMU and felt confident that the university prepared me well for my future career."
       }
     ],
     "work":[
