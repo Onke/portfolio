@@ -8,6 +8,11 @@
 
 # production
 /build
+/dist
+
+# vite / logs
+*.local
+debug.log
 
 # misc
 .DS_Store
