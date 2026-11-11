@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy:preview": "npx -y netlify-cli deploy --build --prod --site 03eb96f0-805e-4d2b-9743-4f7f16b8da06",
+    "deploy:draft": "npx -y netlify-cli deploy --build --site b7c1540a-2530-4106-8cec-b45b701a9f08"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.1.0",
