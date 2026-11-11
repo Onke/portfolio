@@ -26,8 +26,10 @@ export const work = [
       'Shipped a large part of the reseller portal redesign, bringing it in line with the customer portal and making it fully responsive.',
       'Own the WhatsApp Template Library: editing and customising approved templates, review flows, and a rewritten responsive modal component.',
       'Moved into backend work: built a WhatsApp messaging report end to end, from a SQL Server view and stored procedure through a C# service and endpoint to the Vue screen.',
+      'Led the frontend of the WhatsApp Business multi-account experience: account switching and a tabbed layout for insights, numbers and templates.',
+      'Built the Integrations area, including a guided setup and configurable mappings for a third-party marketing platform (Optimove).',
       'Brought WhatsApp account management into the support tooling, including WABA search, number registration and business profile endpoints.',
-      'Consolidated duplicated UI into shared components and split large feature areas into smaller modules.',
+      'Ran a frontend endpoint audit, coordinated backend updates and removed deprecated usage; consolidated duplicated UI into shared components.',
     ],
   },
   {
@@ -35,7 +37,11 @@ export const work = [
     note: 'insurance',
     role: 'Full-stack Developer',
     period: 'Jan 2023 — Feb 2024',
-    points: ['Full-stack development across the product at an insurtech startup, writing SQL directly against the database.'],
+    points: [
+      'Helped design and build a to-do list feature that simplified the claims process, from requirements through the supporting database.',
+      'Built a tracked landing page with React, SASS and Google Tag Manager, and set up AWS EC2 instances for server-side tagging.',
+      'Developed a product catalogue with the marketing team to improve retargeting, and reviewed code for structure, security and cross-device compatibility.',
+    ],
   },
   {
     company: 'Nelson Mandela University',
@@ -98,7 +104,7 @@ export const projects = [
 export const skills = [
   { group: 'Frontend', items: ['Vue 3', 'TypeScript', 'JavaScript', 'Pinia', 'Vite', 'CSS / SCSS', 'D3'] },
   { group: 'Backend & data', items: ['C# / .NET', 'SQL Server', 'Stored procedures & views', 'Python / FastAPI', 'REST APIs'] },
-  { group: 'Also', items: ['Java & Android', 'Capacitor', 'Vitest', 'Git', 'Linux'] },
+  { group: 'Also', items: ['React', 'Java & Android', 'Capacitor', 'Vitest', 'Git', 'AWS EC2', 'Google Tag Manager', 'Linux'] },
 ]
 
 export const writing = {
