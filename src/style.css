@@ -190,6 +190,36 @@ ol {
   height: auto;
 }
 
+/* Focus strip */
+.focus {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--line);
+  margin-bottom: 24px;
+}
+.focus__item {
+  padding: 28px 24px 32px 0;
+}
+.focus__item + .focus__item {
+  padding-left: 24px;
+  border-left: 1px solid var(--line);
+}
+.focus__num {
+  font-family: var(--serif);
+  font-size: 14px;
+  color: var(--accent);
+  font-weight: 600;
+}
+.focus h3 {
+  font-size: 22px;
+  margin: 8px 0 10px;
+}
+.focus p {
+  font-size: 15px;
+  color: var(--ink-2);
+  line-height: 1.55;
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -491,6 +521,16 @@ ol {
     grid-template-columns: 1fr;
     gap: 4px;
   }
+  .focus {
+    grid-template-columns: 1fr 1fr;
+  }
+  .focus__item:nth-child(3) {
+    padding-left: 0;
+    border-left: 0;
+  }
+  .focus__item:nth-child(n + 3) {
+    border-top: 1px solid var(--line);
+  }
   .split,
   .projects {
     grid-template-columns: 1fr;
@@ -512,6 +552,17 @@ ol {
   }
   .topbar nav a:nth-child(4) {
     display: none;
+  }
+  .focus {
+    grid-template-columns: 1fr;
+  }
+  .focus__item,
+  .focus__item + .focus__item {
+    padding: 22px 0;
+    border-left: 0;
+  }
+  .focus__item + .focus__item {
+    border-top: 1px solid var(--line);
   }
   body {
     font-size: 16px;

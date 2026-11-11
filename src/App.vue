@@ -1,5 +1,5 @@
 <script setup>
-import { profile, work, education, projects, skills, writing } from './content.js'
+import { profile, focus, work, education, projects, skills, writing } from './content.js'
 
 const year = new Date().getFullYear()
 const nav = [
@@ -24,7 +24,7 @@ const nav = [
     <!-- Hero -->
     <section class="hero wrap">
       <div class="hero__text">
-        <p class="eyebrow">{{ profile.role }} · {{ profile.location }}</p>
+        <p class="eyebrow">{{ profile.eyebrow }}</p>
         <h1>{{ profile.name }}</h1>
         <p class="hero__headline">{{ profile.headline }}</p>
         <p v-for="(p, i) in profile.intro" :key="i" class="hero__intro">{{ p }}</p>
@@ -44,6 +44,15 @@ const nav = [
       <figure class="hero__photo">
         <img src="/onke.jpg" alt="Portrait of Onke Sipuka" width="480" height="480" />
       </figure>
+    </section>
+
+    <!-- Focus strip -->
+    <section class="focus wrap" aria-label="What I work on">
+      <div v-for="(f, i) in focus" :key="f.title" class="focus__item">
+        <span class="focus__num">{{ String(i + 1).padStart(2, '0') }}</span>
+        <h3>{{ f.title }}</h3>
+        <p>{{ f.body }}</p>
+      </div>
     </section>
 
     <!-- Work -->

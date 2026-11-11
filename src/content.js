@@ -2,12 +2,13 @@
 
 export const profile = {
   name: 'Onke Sipuka',
-  role: 'Software developer',
+  role: 'Frontend-focused full-stack developer',
   location: 'Johannesburg, South Africa',
-  headline: 'I build interfaces people can rely on, and I follow the bug down to the database when it leads there.',
+  eyebrow: 'Vue & .NET developer · Johannesburg',
+  headline: 'I build in Vue and .NET, and I ship what I build, from the screen to the database to the release pipeline.',
   intro: [
-    'I work in Vue 3 and TypeScript every day, and lately in C#, SQL Server views and stored procedures as well, at SMSPortal, an SMS and WhatsApp messaging platform now part of LINK Mobility.',
-    'Outside work I build small, careful tools that respect the people using them: local-first, no accounts, no tracking. I also write Bad Priors, a set of essays in philosophy and reasoning.',
+    'Most of my career has been on the marketing side of products: tracking, catalogues and retargeting at an insurtech, and now business messaging on WhatsApp at SMSPortal, part of LINK Mobility.',
+    'I lead with the frontend but work the whole stack, and I deploy my own frontend and backend changes through Azure DevOps. Outside work I build small local-first tools and write Bad Priors, a set of essays in philosophy and reasoning.',
   ],
   email: 'sipukao@gmail.com',
   links: [
@@ -16,31 +17,48 @@ export const profile = {
   ],
 }
 
+// The thread that runs through the work history, shown as a strip under the hero.
+export const focus = [
+  {
+    title: 'Frontend',
+    body: 'Vue 3 and TypeScript product UI: customer and reseller portals, responsive redesigns, shared component work.',
+  },
+  {
+    title: 'Backend',
+    body: 'C# and .NET services and endpoints, SQL Server views and stored procedures, third-party API integrations.',
+  },
+  {
+    title: 'Marketing tech & messaging',
+    body: 'The WhatsApp Business Platform today; Meta’s Conversions API, product catalogues and server-side tagging before that.',
+  },
+  {
+    title: 'Shipping',
+    body: 'I own my releases: Azure DevOps pipelines, branch deploys to QA and staging, and production rollouts for frontend and backend.',
+  },
+]
+
 export const work = [
   {
     company: 'SMSPortal',
     note: 'part of LINK Mobility',
-    role: 'Frontend Engineer, now full-stack',
+    role: 'Software Developer · frontend-focused, full-stack',
     period: 'Mar 2024 — present',
     points: [
-      'Shipped a large part of the reseller portal redesign, bringing it in line with the customer portal and making it fully responsive.',
-      'Own the WhatsApp Template Library: editing and customising approved templates, review flows, and a rewritten responsive modal component.',
-      'Moved into backend work: built a WhatsApp messaging report end to end, from a SQL Server view and stored procedure through a C# service and endpoint to the Vue screen.',
-      'Led the frontend of the WhatsApp Business multi-account experience: account switching and a tabbed layout for insights, numbers and templates.',
-      'Built the Integrations area, including a guided setup and configurable mappings for a third-party marketing platform (Optimove).',
-      'Brought WhatsApp account management into the support tooling, including WABA search, number registration and business profile endpoints.',
-      'Ran a frontend endpoint audit, coordinated backend updates and removed deprecated usage; consolidated duplicated UI into shared components.',
+      'Built much of the customer-facing WhatsApp Business product: onboarding, account and number management, message templates and insights.',
+      'Contributed heavily to the reseller portal redesign and its responsive rollout.',
+      'Grew from frontend into backend work in .NET and SQL Server: reporting, support tooling and proxy services over Meta’s Graph API.',
+      'Deploy my own frontend and backend changes through Azure DevOps, and review and release alongside a small team.',
     ],
   },
   {
     company: 'Pineapple',
-    note: 'insurance',
-    role: 'Full-stack Developer',
+    note: 'insurtech',
+    role: 'Full-stack Developer · marketing',
     period: 'Jan 2023 — Feb 2024',
     points: [
-      'Helped design and build a to-do list feature that simplified the claims process, from requirements through the supporting database.',
-      'Built a tracked landing page with React, SASS and Google Tag Manager, and set up AWS EC2 instances for server-side tagging.',
-      'Developed a product catalogue with the marketing team to improve retargeting, and reviewed code for structure, security and cross-device compatibility.',
+      'Built a product catalogue service feeding Meta’s Conversions API, so the marketing team could retarget users accurately.',
+      'Built tracked landing pages with Google Tag Manager, and set up server-side tagging on AWS.',
+      'Worked on internal claims tooling, from requirements through to the database.',
     ],
   },
   {
@@ -102,9 +120,10 @@ export const projects = [
 ]
 
 export const skills = [
-  { group: 'Frontend', items: ['Vue 3', 'TypeScript', 'JavaScript', 'Pinia', 'Vite', 'CSS / SCSS', 'D3'] },
-  { group: 'Backend & data', items: ['C# / .NET', 'SQL Server', 'Stored procedures & views', 'Python / FastAPI', 'REST APIs'] },
-  { group: 'Also', items: ['React', 'Java & Android', 'Capacitor', 'Vitest', 'Git', 'AWS EC2', 'Google Tag Manager', 'Linux'] },
+  { group: 'Frontend', items: ['Vue 3', 'TypeScript', 'JavaScript', 'Pinia', 'Vite', 'SCSS', 'Vitest'] },
+  { group: 'Backend & data', items: ['C# / .NET', 'ASP.NET', 'SQL Server', 'REST APIs', 'Python / FastAPI'] },
+  { group: 'Marketing & messaging', items: ['WhatsApp Business Platform', 'Meta Graph API', 'Conversions API', 'Google Tag Manager'] },
+  { group: 'Delivery', items: ['Azure DevOps', 'CI/CD pipelines', 'Git', 'AWS', 'Linux'] },
 ]
 
 export const writing = {
