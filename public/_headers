@@ -1,0 +1,3 @@
+# Browsers must always re-check the service worker kill switch, never cache it.
+/service-worker.js
+  Cache-Control: no-cache, no-store, must-revalidate
